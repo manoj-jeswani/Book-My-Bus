@@ -7,8 +7,7 @@ create table login
      (id varchar(10),
       pass varchar(10));
 
-insert into login values("rohit",1531995);
- insert into login values("manoj",2991997);
+insert into login values("manoj",2991997);
 
 create table admin
      (bcode varchar(20),
