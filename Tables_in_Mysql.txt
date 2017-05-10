@@ -1,0 +1,169 @@
+drop database bus;
+
+create database bus;
+
+ use bus;
+create table login
+     (id varchar(10),
+      pass varchar(10));
+
+insert into login values("rohit",1531995);
+ insert into login values("manoj",2991997);
+
+create table admin
+     (bcode varchar(20),
+     bname varchar(25),
+     dplace varchar(40),
+     dtime varchar(15),
+     aplace varchar(40));
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb1","lynyxA","bangaluru","8:00 a.m.","chennai");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb2","lyno","delhi","8:00 a.m.","hyderabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb3","acron","kerala","8:00 a.m.","chennai");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb4","scorpio","kolkata","9:50 a.m.","srinagar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb5","blue line","mumbai","1:20 p.m.","jaipur");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb6","red line","srinagar","8:00 a.m.","chennai");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb7","red lineA","srinagar","8:00 a.m.","delhi");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb8","red lineB","srinagar","8:00 a.m.","hyderabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb9","red lineC","srinagar","8:00 a.m.","shimla");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb10","red lineD","srinagar","8:00 a.m.","amritsar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb11","lynyxC","bangaluru","10:00 a.m.","ahmedabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb12","lynyxB","bangaluru","8:30 a.m.","agra");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb13","lynyxD","bangaluru","8:00 p.m.","amritsar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb14","lynyxE","bangaluru","12:30 p.m.","delhi");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb15","lynyxF","bangaluru","11:00 a.m.","kerala");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb16","lynyxG","bangaluru","6:30 a.m.","srinagar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb17","lynoA","delhi","2:40 p.m.","ahmedabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb18","lynoB","delhi","3:15 p.m.","kolkata");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb19","lynoC","delhi","8:00 p.m.","chandigarh");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb20","lynoD","delhi","11:00 a.m.","kerala");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb21","lynoE","delhi","6:10 a.m.","jaipur");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb22","lynoF","delhi","11:30 p.m.","srinagar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb23","acronA","kerala","8:00 a.m.","delhi");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb24","acronB","kerala","7:50 a.m.","ahmedabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb25","acronC","kerala","5:55 p.m.","amritsar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb26","acronD","kerala","9:40 p.m.","shimla");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb27","acronE","kerala","6:20 a.m.","kolkata");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb28","acronF","kerala","3:15 p.m.","bangaluru");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb29","scorpioA","kolkata","8:15 p.m.","agra");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb30","scorpioB","kolkata","10:20 a.m.","ajmer");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb31","scorpioC","kolkata","1:30 p.m.","amritsar");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb32","scorpioD","kolkata","3:40 p.m.","ahmedabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb33","scorpioE","kolkata","4:15 p.m.","kerala");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb34","blue lineA","mumbai","12:20 a.m.","delhi");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb35","blue lineB","mumbai","5:00 p.m.","ahmedabad");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb36","blue lineC","mumbai","4:20 p.m.","chandigarh");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb37","blue lineD","mumbai","7:00 a.m.","shimla");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb38","blue lineE","mumbai","11:40 p.m.","kerala");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb39","blue lineF","mumbai","6:15 a.m.","kolkata");
+
+insert into admin(bcode,bname,dplace,dtime,aplace)
+ values("rb40","red lineE","srinagar","8:00 a.m.","ahmedabad");
+
+
+
+     	
+
+
+
+
+
+
+
+
+create table customer
+     (cust_name varchar(45),
+     cust_mob varchar(15),
+     cust_age varchar(30),
+     cust_sex varchar(10),
+     cust_add varchar(60),
+     cust_from varchar(30),
+     cust_to varchar(30),
+     cust_traveldate varchar(10),
+     no_ofseatsbooked int(9),
+     booked_seats varchar(95),
+     pay varchar(20));
+
+ insert into customer
+ values("amit","9828532457","30","male","vaishali nagar","mumbai","kolkata","19-1-2015",4,"S1 S2 S3 S4","2200");
+
+
+
+
