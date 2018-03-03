@@ -1,5 +1,5 @@
-# Java_Mysql_Project
-My First Java Project using Mysql as database
+# Book My Bus
+# :: System Software | Clone of Red Bus Services | Java, Netbeans IDE, Mysql RDBMS
 
 Frame View Images ==> contains  images of all frames used in the project
 
